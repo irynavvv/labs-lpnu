@@ -16,7 +16,7 @@ if a + b < 2:
     if val == 0:
         print("ERROR: log value cannot be equal to 0")
     else:
-        y = math.log(abs(val))
+        y = math.log10(abs(val))
 elif a + b >= 2:
     val = a - b * a
     if val == 0:
