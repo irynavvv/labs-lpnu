@@ -10,8 +10,10 @@ print('Result is A=', a, '\n');
 b = (L ** (-1/3) - (x / 6) ** (-2)) * math.log(K)
 print('Result is B=', b, '\n');
 if a + b < 2:
-    y = math.log(abs(a - 2*b))
+    y = math.log10(abs(a - 2*b))
 elif a + b >= 2:
     y = math.log(abs(a - b*a))
 print('Result is Y= ', y, '\n');
   
+
+
